@@ -9,7 +9,7 @@ date: 2026-08-29 16:00:00
 
 我喜欢专注于自己最擅长的事情、不断学习，不断进步。
 
-**近期获得的CVE漏洞**
+**近期CVE致谢**
 
 <style>
 .cve-table-wrap { margin: 1.2em 0 1.8em; width: fit-content; max-width: 100%; overflow-x: auto; border: 1px solid rgba(255,255,255,.14); border-radius: 10px; }
