@@ -13,10 +13,10 @@ date: 2026-08-29 16:00:00
 .cve-table-wrap { margin: 2em 0 1em; overflow-x: auto; }
 table.cve-table { width: 100%; border-collapse: collapse; font-size: .92em; }
 table.cve-table th,
-table.cve-table td { padding: .5em .85em; text-align: left; border: 1px solid rgba(128,128,128,.28); }
-table.cve-table th { background: rgba(128,128,128,.16); font-weight: 600; white-space: nowrap; }
-table.cve-table tbody tr:nth-child(even) { background: rgba(128,128,128,.07); }
-table.cve-table tbody tr:hover { background: rgba(128,128,128,.15); }
+table.cve-table td { padding: .55em .9em; text-align: left; border: 1px solid rgba(160,160,160,.35); }
+table.cve-table th { background: rgba(160,160,160,.30); font-weight: 600; white-space: nowrap; }
+table.cve-table tbody tr:nth-child(even) { background: rgba(160,160,160,.14); }
+table.cve-table tbody tr:hover { background: rgba(160,160,160,.24); }
 table.cve-table td.cve-td { white-space: nowrap; }
 a.cve-id { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .86em; border: 1px solid rgba(128,128,128,.42); border-radius: 1em; padding: .12em .6em; white-space: nowrap; }
 </style>
