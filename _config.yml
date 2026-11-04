@@ -4,9 +4,9 @@
 
 # Site
 title: h1ei1:The World Hacking Me!
-subtitle: ''
-description: ''
-keywords:
+subtitle: 漏洞复现与安全研究
+description: h1ei1 的个人安全博客，专注漏洞复现、CVE 漏洞分析与 Web 安全研究，记录最新 CVE 的复现过程与利用思路。
+keywords: 安全,漏洞复现,CVE,Web安全,渗透测试,漏洞分析,安全研究
 author: h1ei1
 language: zh-CN
 timezone: ''
