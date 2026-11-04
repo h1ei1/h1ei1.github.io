@@ -12,8 +12,8 @@ date: 2026-08-29 16:00:00
 **近期获得的CVE漏洞**
 
 <style>
-.cve-table-wrap { margin: 1.2em 0 1.8em; overflow-x: auto; border: 1px solid rgba(255,255,255,.14); border-radius: 10px; }
-table.cve-table { width: 100%; border-collapse: collapse; font-size: .92em; }
+.cve-table-wrap { margin: 1.2em 0 1.8em; width: fit-content; max-width: 100%; overflow-x: auto; border: 1px solid rgba(255,255,255,.14); border-radius: 10px; }
+table.cve-table { width: auto; border-collapse: collapse; font-size: .92em; }
 table.cve-table th,
 table.cve-table td { padding: .6em .95em; text-align: left; border-bottom: 1px solid rgba(255,255,255,.08); }
 table.cve-table thead th { background: rgba(255,255,255,.07); font-weight: 600; white-space: nowrap; }
@@ -22,7 +22,6 @@ table.cve-table tbody tr:nth-child(even) { background: rgba(255,255,255,.045); }
 table.cve-table tbody tr:hover { background: rgba(255,255,255,.09); }
 table.cve-table td.cve-td { white-space: nowrap; }
 table.cve-table td.cve-td a { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .95em; text-decoration: none; }
-table.cve-table th:last-child, table.cve-table td:last-child { width: 1%; white-space: nowrap; }
 </style>
 
 <div class="cve-table-wrap">
