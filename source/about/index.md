@@ -9,20 +9,37 @@ date: 2026-08-29 16:00:00
 
 我喜欢专注于自己最擅长的事情、不断学习，不断进步。
 
-## 我的 CVE
+<style>
+.cve-table-wrap { margin: 2em 0 1em; overflow-x: auto; }
+table.cve-table { width: 100%; border-collapse: collapse; font-size: .92em; }
+table.cve-table th,
+table.cve-table td { padding: .5em .85em; text-align: left; border: 1px solid rgba(128,128,128,.28); }
+table.cve-table th { background: rgba(128,128,128,.16); font-weight: 600; white-space: nowrap; }
+table.cve-table tbody tr:nth-child(even) { background: rgba(128,128,128,.07); }
+table.cve-table tbody tr:hover { background: rgba(128,128,128,.15); }
+table.cve-table td.cve-td { white-space: nowrap; }
+a.cve-id { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .86em; border: 1px solid rgba(128,128,128,.42); border-radius: 1em; padding: .12em .6em; white-space: nowrap; }
+</style>
 
-| 厂商 | 产品 | CVE-ID | 类型 |
-| :--- | :---- | :----- | :--- |
-| Apache | ZooKeeper | [CVE-2026-100252](https://zookeeper.apache.org/security/) | 授权绕过 |
-| Apache | ZooKeeper | [CVE-2026-100300](https://zookeeper.apache.org/security/) | 拒绝服务 |
-| Apache | ZooKeeper | [CVE-2026-100235](https://zookeeper.apache.org/security/) | 授权绕过 |
-| Comfy-Org | ComfyUI-Manager | [CVE-2026-22777](https://github.com/Comfy-Org/ComfyUI-Manager/security/advisories/GHSA-562r-8445-54r2) | 代码执行 |
-| GeoTools | GeoTools | [CVE-2026-76904](https://github.com/geotools/geotools/security/advisories/GHSA-mqjf-5f49-2fjh) | SQL 注入 |
-| GeoServer | GeoServer | [CVE-2026-76904](https://github.com/geoserver/geoserver/security/advisories/GHSA-jvpx-6qxg-whgc) | SQL 注入 |
-| Apache | NiFi | [CVE-2026-81866](https://nifi.apache.org/documentation/security/) | 授权缺失 |
-| Apache | DolphinScheduler | [CVE-2026-71895](https://www.openwall.com/lists/oss-security/2026/10/08/5) | 授权缺失 |
-| Apache | DolphinScheduler | [CVE-2026-66087](https://www.openwall.com/lists/oss-security/2026/10/08/3) | 授权绕过 |
-| Apache | DolphinScheduler | [CVE-2026-66084](https://www.openwall.com/lists/oss-security/2026/10/08/2) | 授权绕过 |
-| lakeFS | lakeFS | [暂无](https://github.com/treeverse/lakeFS/security/advisories/GHSA-223c-qwgx-wwcg) | SSRF |
-| Apache | Camel | [CVE-2026-88900](https://www.openwall.com/lists/oss-security/2026/10/19/2) | 代码执行 |
-| Oracle | MySQL | [CVE-2026-101803](https://www.oracle.com/security-alerts/cpuoct2026.html) | 堆缓冲区溢出 |
+<div class="cve-table-wrap">
+<table class="cve-table">
+<thead>
+<tr><th>厂商</th><th>产品</th><th>CVE-ID</th><th>类型</th></tr>
+</thead>
+<tbody>
+<tr><td>Apache</td><td>ZooKeeper</td><td class="cve-td"><a class="cve-id" href="https://zookeeper.apache.org/security/" target="_blank" rel="noopener">CVE-2026-100252</a></td><td>授权绕过</td></tr>
+<tr><td>Apache</td><td>ZooKeeper</td><td class="cve-td"><a class="cve-id" href="https://zookeeper.apache.org/security/" target="_blank" rel="noopener">CVE-2026-100300</a></td><td>拒绝服务</td></tr>
+<tr><td>Apache</td><td>ZooKeeper</td><td class="cve-td"><a class="cve-id" href="https://zookeeper.apache.org/security/" target="_blank" rel="noopener">CVE-2026-100235</a></td><td>授权绕过</td></tr>
+<tr><td>Comfy-Org</td><td>ComfyUI-Manager</td><td class="cve-td"><a class="cve-id" href="https://github.com/Comfy-Org/ComfyUI-Manager/security/advisories/GHSA-562r-8445-54r2" target="_blank" rel="noopener">CVE-2026-22777</a></td><td>代码执行</td></tr>
+<tr><td>GeoTools</td><td>GeoTools</td><td class="cve-td"><a class="cve-id" href="https://github.com/geotools/geotools/security/advisories/GHSA-mqjf-5f49-2fjh" target="_blank" rel="noopener">CVE-2026-76904</a></td><td>SQL 注入</td></tr>
+<tr><td>GeoServer</td><td>GeoServer</td><td class="cve-td"><a class="cve-id" href="https://github.com/geoserver/geoserver/security/advisories/GHSA-jvpx-6qxg-whgc" target="_blank" rel="noopener">CVE-2026-76904</a></td><td>SQL 注入</td></tr>
+<tr><td>Apache</td><td>NiFi</td><td class="cve-td"><a class="cve-id" href="https://nifi.apache.org/documentation/security/" target="_blank" rel="noopener">CVE-2026-81866</a></td><td>授权缺失</td></tr>
+<tr><td>Apache</td><td>DolphinScheduler</td><td class="cve-td"><a class="cve-id" href="https://www.openwall.com/lists/oss-security/2026/10/08/5" target="_blank" rel="noopener">CVE-2026-71895</a></td><td>授权缺失</td></tr>
+<tr><td>Apache</td><td>DolphinScheduler</td><td class="cve-td"><a class="cve-id" href="https://www.openwall.com/lists/oss-security/2026/10/08/3" target="_blank" rel="noopener">CVE-2026-66087</a></td><td>授权绕过</td></tr>
+<tr><td>Apache</td><td>DolphinScheduler</td><td class="cve-td"><a class="cve-id" href="https://www.openwall.com/lists/oss-security/2026/10/08/2" target="_blank" rel="noopener">CVE-2026-66084</a></td><td>授权绕过</td></tr>
+<tr><td>lakeFS</td><td>lakeFS</td><td class="cve-td"><a class="cve-id" href="https://github.com/treeverse/lakeFS/security/advisories/GHSA-223c-qwgx-wwcg" target="_blank" rel="noopener">暂无</a></td><td>SSRF</td></tr>
+<tr><td>Apache</td><td>Camel</td><td class="cve-td"><a class="cve-id" href="https://www.openwall.com/lists/oss-security/2026/10/19/2" target="_blank" rel="noopener">CVE-2026-88900</a></td><td>代码执行</td></tr>
+<tr><td>Oracle</td><td>MySQL</td><td class="cve-td"><a class="cve-id" href="https://www.oracle.com/security-alerts/cpuoct2026.html" target="_blank" rel="noopener">CVE-2026-101803</a></td><td>堆缓冲区溢出</td></tr>
+</tbody>
+</table>
+</div>
