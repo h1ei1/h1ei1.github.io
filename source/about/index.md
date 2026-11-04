@@ -21,7 +21,8 @@ table.cve-table tbody tr:last-child td { border-bottom: none; }
 table.cve-table tbody tr:nth-child(even) { background: rgba(255,255,255,.045); }
 table.cve-table tbody tr:hover { background: rgba(255,255,255,.09); }
 table.cve-table td.cve-td { white-space: nowrap; }
-table.cve-table td.cve-td a { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .95em; }
+table.cve-table td.cve-td a { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .95em; text-decoration: none; }
+table.cve-table th:last-child, table.cve-table td:last-child { width: 1%; white-space: nowrap; }
 </style>
 
 <div class="cve-table-wrap">
