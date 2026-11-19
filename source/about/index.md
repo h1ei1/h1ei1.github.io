@@ -43,6 +43,7 @@ table.cve-table td.cve-td a { font-family: ui-monospace, SFMono-Regular, Consola
 <tr><td>lakeFS</td><td>lakeFS</td><td class="cve-td"><a href="https://github.com/treeverse/lakeFS/security/advisories/GHSA-223c-qwgx-wwcg" target="_blank" rel="noopener">暂无</a></td><td>SSRF</td></tr>
 <tr><td>Apache</td><td>Camel</td><td class="cve-td"><a href="https://www.openwall.com/lists/oss-security/2026/10/19/2" target="_blank" rel="noopener">CVE-2026-88900</a></td><td>代码执行</td></tr>
 <tr><td>Oracle</td><td>MySQL</td><td class="cve-td"><a href="https://www.oracle.com/security-alerts/cpuoct2026.html" target="_blank" rel="noopener">CVE-2026-101803</a></td><td>堆缓冲区溢出</td></tr>
+<tr><td>Apache</td><td>Tomcat</td><td class="cve-td"><a href="https://www.openwall.com/lists/oss-security/2026/10/20/23" target="_blank" rel="noopener">CVE-2026-80353</a></td><td>竞态条件</td></tr>
 </tbody>
 </table>
 </div>
