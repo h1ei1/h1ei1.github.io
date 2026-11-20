@@ -45,12 +45,12 @@ table.cve-table td.cve-td a { font-family: ui-monospace, SFMono-Regular, Consola
 <tr><td>Oracle</td><td>MySQL</td><td class="cve-td"><a href="https://www.oracle.com/security-alerts/cpuoct2026.html" target="_blank" rel="noopener">CVE-2026-101803</a></td><td>堆缓冲区溢出</td></tr>
 <tr><td>Apache</td><td>Tomcat</td><td class="cve-td"><a href="https://www.openwall.com/lists/oss-security/2026/10/20/23" target="_blank" rel="noopener">CVE-2026-80353</a></td><td>竞态条件</td></tr>
 <tr><td>Spring</td><td>Spring Security</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59331" target="_blank" rel="noopener">CVE-2026-59331</a></td><td>拒绝服务</td></tr>
-<tr><td>Spring</td><td>Spring Boot</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59373" target="_blank" rel="noopener">CVE-2026-59373</a></td><td>中间人</td></tr>
+<tr><td>Spring</td><td>Spring Boot</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59373" target="_blank" rel="noopener">CVE-2026-59373</a></td><td>认证不当</td></tr>
 <tr><td>Spring</td><td>Spring Boot</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59378" target="_blank" rel="noopener">CVE-2026-59378</a></td><td>认证绕过</td></tr>
 <tr><td>Spring</td><td>Spring Integration</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59381" target="_blank" rel="noopener">CVE-2026-59381</a></td><td>路径遍历</td></tr>
 <tr><td>Spring</td><td>Spring Framework</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59393" target="_blank" rel="noopener">CVE-2026-59393</a></td><td>拒绝服务</td></tr>
 <tr><td>Spring</td><td>Spring Framework</td><td class="cve-td"><a href="https://spring.io/security/cve-2026-59394" target="_blank" rel="noopener">CVE-2026-59394</a></td><td>开放重定向</td></tr>
-<tr><td>PHP</td><td>php-src</td><td class="cve-td"><a href="https://github.com/php/php-src/security/advisories/GHSA-5j3f-64r7-f564" target="_blank" rel="noopener">暂无</a></td><td>越界读写</td></tr>
+<tr><td>PHP</td><td>php-src</td><td class="cve-td"><a href="https://github.com/php/php-src/security/advisories/GHSA-5j3f-64r7-f564" target="_blank" rel="noopener">CVE-2026-129538</a></td><td>越界读写</td></tr>
 </tbody>
 </table>
 </div>
